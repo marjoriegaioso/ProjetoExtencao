@@ -20,19 +20,38 @@
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 600;
     color: black;
-    margin: 10px;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    line-height: 3;
+    text-decoration: none;
+    margin: 0 ;
 }
 
 .textofaleredes {
     text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    color: black;
-    margin: 10px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin: 0;
+    text-decoration: none;
+}
+
+.textofaleredes li a {
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    line-height: 3;
+    border-image: none;
+}
+
+.textofaleredes li{
+    list-style-type: none;
 }
